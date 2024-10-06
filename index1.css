@@ -1,0 +1,138 @@
+.section2{
+    width: 95%;
+    max-width: 1500px;
+    margin : 100px auto;
+}
+
+
+.section2 input  {
+ width: 100%;
+ padding: 10px 0;
+ margin-top: 13px;
+}
+
+
+.footer{
+    width: 95%;
+    max-width: 1500px;
+    margin: 100px auto;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .peoples{
+       display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-auto-rows: minmax(150px,auto);
+   gap: 15px;
+    };
+
+
+    
+ }
+
+ @media only screen and (max-width: 700px) {
+   .peoples{
+      display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: minmax(150px,auto);
+  gap: 15px;
+   };
+   .section-content{
+       margin-top: 40px;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-auto-rows: minmax(150px,auto);
+       gap : 10px;
+       grid-row-gap: 10px;
+   }
+}
+
+
+@media only screen and (max-width: 400px) {
+   .peoples{
+      display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-auto-rows: minmax(150px,auto);
+  gap: 15px;
+   }
+}
+
+
+@media only screen and (max-width: 800px) {
+    
+    .section-content{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: minmax(150px,auto);
+        gap : 10px;
+        grid-row-gap: 10px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .section-content{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: minmax(150px,auto);
+        gap : 10px;
+        grid-row-gap: 10px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 390px) {
+    
+    .section-content{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: minmax(150px,auto);
+        gap : 10px;
+        grid-row-gap: 10px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .nav a {
+        padding: 4px 8px;
+    }
+ }
+
+
+ @media only screen and (max-width: 700px) {
+    .nav a {
+        padding: 0;
+    }
+ }
+
+ 
+ @media only screen and (max-width: 500px) {
+    .nav a {
+        font-size: 10px;    }
+ }
+
+
+ @media only screen and (max-width: 400px) {
+    .nav a {
+        font-size: 8px;    }
+ }
+
